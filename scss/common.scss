@@ -46,21 +46,3 @@ $spacers: map-merge(
 @import "../libs/bootstrap/scss/utilities/flex";
 @import "../libs/bootstrap/scss/utilities/spacing";
 
-/*============  variables =======*/
-$text-color: #5a5a5a;
-$text-light: #fff;
-$main-color: #3677fd;
-
-body {
-    font-family: "Lato", sans-serif;
-    color: $text-color;
-    font-size: 16px;
-    line-height: 35/16;
-}
-a {
-    color: $text-color;
-}
-
-.text-center {
-    text-align: center;
-}

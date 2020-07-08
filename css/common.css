@@ -9338,19 +9338,4 @@ html {
     margin-left: auto !important;
   }
 }
-/*============  variables =======*/
-body {
-  font-family: "Lato", sans-serif;
-  color: #5a5a5a;
-  font-size: 16px;
-  line-height: 35/16;
-}
-
-a {
-  color: #5a5a5a;
-}
-
-.text-center {
-  text-align: center;
-}
 /*# sourceMappingURL=common.css.map */
