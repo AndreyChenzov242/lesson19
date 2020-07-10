@@ -24,6 +24,7 @@ a {
     background-image: url('../img/intro_bg.png');
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 .intro-container{
@@ -63,6 +64,12 @@ a {
 
 .intro-btn{
     margin-top: auto;
+}
+
+.arrow-down{
+    position: absolute;
+    bottom: 10px;
+    left: calc(50% - 9.5px);
 }
 
 
@@ -232,4 +239,37 @@ a {
         }
 
     }
+}
+.works{
+    padding-bottom: 125px;
+
+    &__img{
+        margin-bottom: 60px;
+        img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+
+
+.works-title{
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.clients{
+    background-color: #F1F8FF;
+    padding: 90px 0;
+}
+
+.clients-title{
+    margin-bottom: 70px;
+}
+
+.clients-logo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
