@@ -73,6 +73,9 @@ a {
         font-size: 50px;
         text-transform: uppercase;
         margin-top: auto;
+        @media screen and (max-width: 500px) {
+            font-size: 30px;
+        }
     }
     .subtitle{
         text-align: center;
@@ -422,15 +425,25 @@ a {
 .works-title{
     padding-top: 100px;
     margin-bottom: 100px;
+    @media (max-width: 500px) {
+        padding-top: 30px;
+        margin-bottom: 30px;
+    }
 }
 
 .clients{
     background-color: #F1F8FF;
     padding: 90px 0;
+    @media (max-width: 500px) {
+        padding: 30px 0;
+    }
 }
 
 .clients-title{
     margin-bottom: 70px;
+    @media (max-width: 500px) {
+        margin-bottom: 40px;
+    }
 }
 
 .clients-logo{
