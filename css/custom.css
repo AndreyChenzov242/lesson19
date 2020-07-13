@@ -20,6 +20,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  padding-bottom: 15px;
 }
 
 .intro-container {
