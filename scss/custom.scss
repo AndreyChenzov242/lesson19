@@ -19,7 +19,7 @@ a {
 }
 
 .cookie{
-    height: 70px;
+    min-height: 70px;
     position: fixed;
     display: flex;
     align-items: center;
@@ -42,7 +42,6 @@ a {
         height: 30px;
         border-radius: 25px;
         background-color: white;
-        margin-left: 50px;
         font-weight: bold;
         font-size: 12px;
         cursor: pointer;
