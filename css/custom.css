@@ -1,6 +1,6 @@
 /*============  variables =======*/
 body {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato";
   color: #5a5a5a;
   font-size: 16px;
   line-height: 35/16;
@@ -128,6 +128,7 @@ a {
   height: 180px;
   margin-bottom: 45px;
   padding-top: 15px;
+  resize: none;
 }
 .md .modal-content .modal_container .modal_btn {
   background-color: #3677fd;
@@ -152,13 +153,50 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 400px;
+  width: 420px;
   margin: 0 auto;
+}
+.hire-contaier .box_links {
+  margin-top: 80px;
+}
+.hire-contaier .box_links .h2_modal {
+  color: #d2d2d2;
+}
+.hire-contaier .box_links .h2_modal:hover {
+  text-transform: none;
+  color: #3677fd;
 }
 .hire-contaier hr {
   background-color: #D1D9E4;
+  margin: 75px auto;
   height: 1px;
   width: 100%;
+}
+.hire-contaier .social {
+  margin-bottom: 80px;
+  padding: 0 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.hire-contaier .social .minibox {
+  width: 50px;
+  height: 50px;
+}
+.hire-contaier .social .minibox .social_link {
+  width: 100%;
+  height: 50px;
+  border-radius: 50%;
+  font-weight: 400;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #e1e1e1;
+}
+.hire-contaier .social .minibox .social_link:hover {
+  background-color: #3677fd;
 }
 
 .sun {
@@ -244,6 +282,16 @@ a {
   font-size: 50px;
   font-weight: 300;
   color: #fff;
+}
+@media (max-width: 991px) {
+  .footer .row .footer__description {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .footer .row .footer__description {
+    font-size: 30px;
+  }
 }
 .footer .row .footer__description span {
   font-weight: 700;
